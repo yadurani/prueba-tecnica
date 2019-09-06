@@ -1,0 +1,38 @@
+// Variables color
+$primary: #081c24;
+$secondary: #00d573;
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.active {
+  color: $secondary !important;
+}
+/* Navbar*/
+.navbar {
+  background: #081c24;
+  color: white;
+  padding: 10px 0;
+}
+
+// Wrapper
+#wrapper {
+  margin-top: 60px;
+  // margin-bottom: 60px;
+}
+
+//Colors
+.white--text {
+  color: white;
+}
+.primary--text {
+  color: $primary;
+}
